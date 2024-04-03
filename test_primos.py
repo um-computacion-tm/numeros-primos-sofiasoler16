@@ -4,6 +4,7 @@ from primos import is_primo
 
 
 class TestPrimos(unittest.TestCase):
+    
     def test_primos(self):
         result = is_primo(7)
         self.assertTrue(result)

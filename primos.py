@@ -15,10 +15,13 @@ def is_primo(value):
     divisor=value-1
     while divisor>1:
         if value%divisor==0:
+            # print("Is not primo")
             return False
         divisor=divisor-1
-
+    # print("Is primo")
     return True
+
+
 
 
 
